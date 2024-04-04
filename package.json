@@ -2,20 +2,25 @@
   "name": "flowbite-react-template-parcel",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel",
     "build": "parcel build",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "start": "parcel",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "flowbite-react": "^0.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
@@ -25,11 +30,7 @@
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
+    "process": "^0.11.10",
     "tailwindcss": "^3.4.1"
-  },
-  "dependencies": {
-    "flowbite-react": "^0.7.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   }
 }
