@@ -36,5 +36,6 @@ module.exports = {
     },
   },
   plugins: ["react"],
+  ignorePatterns: ["dist"],
   rules: {},
 };
